@@ -1,0 +1,142 @@
+/** {*/
+/*    color: black;*/
+/*}*/
+
+/*#header_image {*/
+/*    position: relative;*/
+/*    !*left: 50%;*!*/
+/*    !*top: 20px;*!*/
+/*    !*left: 50%;*!*/
+/*    !*right: 50%;*!*/
+/*    !*transform: translate(-50%, 0%);*!*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    width: 5%;*/
+/*    font-size: 40px;*/
+/*    text-align: center;*/
+/*}*/
+
+#header1 {
+    position: relative;
+    /*left: 50%;*/
+    /*top: 20px;*/
+    /*left: 50%;*/
+    /*right: 50%;*/
+    /*transform: translate(-50%, 0%);*/
+    margin-top: -70px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+#bottom {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#error_alert {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.8;
+    border-radius: 5px;
+    /*font-family: sans-serif;*/
+    font-weight: 400;
+    background-color: #e3cdb2;
+    border: 1px solid #775307;
+    color: #852828;
+}
+
+/*#button {*/
+/*    !*position: relative;*!*/
+/*    height: auto;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    margin: 0 auto;*/
+/*    !*padding: 10px;*!*/
+/*    !*margin: 10px;*!*/
+/*    !*line-height: 1.8;*!*/
+/*    !*border-radius: 5px;*!*/
+/*    !*!*font-family: sans-serif;*!*!*/
+/*    !*font-weight: 400;*!*/
+/*    !*background-color: #e3cdb2;*!*/
+/*    !*border: 1px solid #775307;*!*/
+/*    !*color: #852828;*!*/
+/*}*/
+
+
+.taipy-button {
+    width: 100%;
+}
+
+.taipy-file_download {
+    width: 100%;
+}
+
+#my_selector {
+    text-align: center;
+}
+
+.taipy-selector td {
+    text-align: right;
+}
+
+.cage {
+    margin-bottom: 8px;
+    border: solid 3px;
+    display: block;
+    padding: 5px;
+    text-align: justify;
+    overflow-wrap: anywhere;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered_full {
+    border: 3px #3f9e5a;
+    padding: 10px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100% !important;
+    max-height: 100%;
+}
+
+#dataset_sample {
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 50%;*/
+    border: 3px #3f9e5a;
+    padding: 10px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100% !important;
+    max-height: 100%;
+}
+
+#visualization_image {
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 100%;*/
+    padding: 25px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100% !important;
+    max-height: 100%;
+}
+
+#span.taipy-watermark {
+    visibility: hidden;
+}
